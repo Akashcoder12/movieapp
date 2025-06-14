@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
 
- const API_URL=`http://www.omdbapi.com/?i=tt3896198&apikey=3f1501f9`;
+ const API_URL=`https://www.omdbapi.com/?i=tt3896198&apikey=3f1501f9`;
 export default function App() {
   const [movies,setMovies]=useState([]);
   const [searchTerm,setSearchTerm]=useState('');
